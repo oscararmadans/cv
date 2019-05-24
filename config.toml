@@ -1,0 +1,522 @@
+# Page settings
+
+baseurl = "http://example.org/"
+languageCode = "es"
+title = "Òscar Armadans Martínez"
+theme = "hugo-orbit-theme"
+# googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+
+[params]
+
+# Meta
+    description = "CV de Òscar Armadans Martínez"
+    author = "Òscar Armadans Martínez"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-3.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Òscar Armadans Martínez"
+        tagline = "Software Engineer"
+#        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: oscar.armadans@gmail.com"
+        title = "oscar.armadans@gmail.com"
+
+#        [[params.contact.list]]
+#        class = "phone"
+#        icon = "fa-phone"
+#        url = "tel:+1234567890"
+#        title = "+1234567890"
+
+#        [[params.contact.list]]
+#        class = "website"
+#        icon = "fa-globe"
+#        url = "//portfoliosite.com"
+#        title = "portfoliosite.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "https://www.linkedin.com/in/òscar-armadans-martínez-62243310"
+        title = "linkedin.com/in/òscar-armadans-martínez"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/oscararmadans"
+        title = "github.com/oscararmadans"
+
+#        [[params.contact.list]]
+#        class = "twitter"
+#        icon = "fa-twitter"
+#        url = "//twitter.com/username"
+#        title = "@twittername"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Educación"
+
+        [[params.education.list]]
+        degree = "Ingeniero técnico informático de sistemas"
+        college = "Universidad de Barcelona"
+        dates = "2003 - 2007"
+
+        [[params.education.list]]
+        degree = "Iniciado Grado ADE"
+        college = "Universidad Oberta de Catalunya"
+        dates = "2008 - Actualidad"
+        
+        [[params.education.list]]
+        degree = "Certified Programmer For Java 6"
+        college = "SUN"
+        dates = "2010"
+        
+        [[params.education.list]]
+        degree = "Java EE 5 Web Component Developer"
+        college = "Oracle certified professional"
+        dates = "2010"
+        
+        [[params.education.list]]
+        degree = "ITIL V3 Foundation"
+        college = "ITIL"
+        dates = "2011"
+        
+        [[params.education.list]]
+        degree = "MBA EXECUTIVE 710 HORAS"
+        college = "ENAC Escuela de negocios"
+        dates = "2016"
+        
+        [[params.education.list]]
+        degree = "Oracle Certified Associate, Java SE 8 Programmer"
+        college = "Oracle certified professional"
+        dates = "2019"
+
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Lenguajes"
+
+        [[params.language.list]]
+        language = "Catalan"
+        level = "Nativo"
+
+        [[params.language.list]]
+        language = "Castellano"
+        level = "Nativo"
+
+        [[params.language.list]]
+        language = "Inglés"
+        level = "Profesional"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Otros datos"
+
+        [[params.interests.list]]
+        interest = "Licencias A y B"
+
+        [[params.interests.list]]
+        interest = "Deportista"
+
+        [[params.interests.list]]
+        interest = "Perfeccionista"
+
+# Main body sections
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Carrera profesional"
+        summary = "**Software Engineer** con mas de 12 años de experiencia en desarrollo de Backends de aplicaciones Java"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiencias"
+
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "04/2019 - "
+        company = "Opentrends"
+        details = "Team leader equipo 2 personas. Responsable framework de la Generalitat de Catalunya<br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Spring Boot 2, Spring 5, Spring MVC, Spring Data JPA, Spring Data Mongo, Spring Security, Reactive, Web-flux, Swagger, Servicios Rest JSON, Hibernate, ELK, Docker, Kubernetes"
+        
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "01/2019 - 04/2019"
+        company = "Opentrends"
+        details = "Evolución de framework de la Generalitat de Catalunya a Spring 5 y Spring Boot 2<br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Spring Boot 2, Spring 5, Spring MVC, Spring Data JPA, Spring Data Mongo, Spring Security, Reactive, Web-flux, Swagger, Servicios Rest JSON JSON, Hibernate"
+        
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "08/2018 - 01/2019"
+        company = "Opentrends"
+        details = "Análisis y diseño rearquitectura aplicación a Spring Boot 1 y Servicios Rest JSON para ser desplegada a cloud <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Spring Boot 1, Spring 4, Spring MVC, Swagger, Servicios Rest JSON JSON, Servicios Soap, iText, Axis2, OpenShift, Tomcat, ELK, Docker, Kubernetes"
+        
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "11/2016 - 08/2018"
+        company = "Opentrends"
+        details = "Team leader equipo 7 personas. Análisis y diseño del Backend de un BMP <br/>Cliente: ServiHogar <br/>Tecnologías: Tomcat, Camunda BMP, BPMN 2, MySql, Spring 4, Spring MVC, MyBatis, Servicios Rest JSON JSON, Swagger, AWS, Docker"
+
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "06/2016 – 11/2016"
+        company = "Opentrends"
+        details = "Análisis y diseño de un BMP. Frontend y Backend<br/>Cliente: Memora Internacional <br/>Tecnologías: Tomcat, BonitaSoft BMP, BPMN 2, Javascript, Groovy, Angular, Postgres, BD H2, Servicios Rest JSON JSON, Servicios Soap, html, jasperreports"
+        
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "03/2015 – 06/2016"
+        company = "Opentrends"
+        details = "Team leader equipo 6 personas. Análisis, diseño y gestión de tareas/equipo backend de la nueva aplicación para compras de prendas de franquiciados de Mango <br/>Cliente: Mango <br/>Tecnologías: Weblogic, Oracle, Servicios Rest JSON JSON, Spring MVC, JAX-RC, EJB, PrimeFaces, html, javascript, jenkins"
+        
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "08/2014 – 03/2015"
+        company = "Opentrends"
+        details = "Team leader equipo 5 personas. Análisis, diseño y gestión de tareas/equipo backend de la nueva aplicación del Mobile World Congress <br/>Cliente: Fira de Barcelona <br/>Tecnologías: Tomcat, MySql, Servicios Rest JSON JSON, Sring MVC, jsp, html, javascript, Swagger, maven, jenkins"
+        
+        [[params.jobs.list]]
+        position = "Software engineer"
+        dates = "02/2013 – 08/2014"
+        company = "Opentrends"
+        details = "Análisis y diseño de integración de datos de diferentes sistemas origenes del Ajuntament de Barcelona para un CRM <br/>Cliente: Ajuntament de Barcelona <br/>Tecnologías: Talend, Spring, Oracle, Servicios Rest JSON JSON, jenkins"
+        
+        [[params.jobs.list]]
+        position = "Arquitecto J2EE junior"
+        dates = "02/2011 – 02/2013"
+        company = "Atos"
+        details = "Team leader equipo 2 personas. Diseño y revisión de soluciones para proyectos del Departament de Justícia (Generalitat de Catalunya). Auditorías técnicas a los proyectos del Departament de Justícia (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle Service Bus (OSB), Apache, EJB, Servicios Soap, WS-Secrity, Canigo, Struts, Hibernate, jsp, html, javascript, maven, ant, continuus, jenkins"
+        
+        [[params.jobs.list]]
+        position = "Analista orgánico J2EE"
+        dates = "05/2010 – 02/2011"
+        company = "Atos Origin"
+        details = "Responsable soporte técnico a proyectos y responsable de nuevos proyectos del Departament de Justícia (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle service bus (OSB), Apache, EJB, Servicios Soap, WS-Secrity, Canigo, Struts, Hibernate, jsp, html, javascript, maven, ant, continuus, jenkins"
+
+				[[params.jobs.list]]
+        position = "Analista programador J2EE"
+        dates = "10/2009 – 05/2010"
+        company = "Atos Origin"
+        details = "Anàlisis y desarrollo proyecto SIRE (receta electrónica) del Departament de Salut (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle, EJB, Servicios Soap, Strus, Hibernate, jsp, jsf, html, javascript, jasperreports, maven, ant"
+
+				[[params.jobs.list]]
+        position = "Analista programador J2EE"
+        dates = "07/2008 – 10/2009"
+        company = "Atos Origin"
+        details = "Soporte técnico a proyectos y responsable de nuevos proyectos del Departament de Justícia (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle Service Bus (OSB), Apache, EJB, Servicios Soap, WS-Secrity, Canigo, Strus, Hibernate, jsp, html, javascript, maven, ant, continuus, jenkins"
+        
+        [[params.jobs.list]]
+        position = "Analista programador J2EE"
+        dates = "07/2007 – 07/2008"
+        company = "Capgemini"
+        details = "Anàlisis y desarrollo proyecto DRV (Derivados) para La Caixa <br/>Cliente: La Caixa <br/>Tecnologías: Webshpere, Oracle, Servicios Soap, Strus, Hibernate, jsp, html, javascript"
+        
+        [[params.jobs.list]]
+        position = "Programador J2EE"
+        dates = "07/2006 – 07/2007"
+        company = "Capgemini"
+        details = "Desarrollo proyecto DRV (Derivados) para La Caixa <br/>Cliente: La Caixa <br/>Tecnologías: Webshpere, Oracle, Servicios Soap, Strus, Hibernate, jsp, html, javascript"
+        
+        [[params.jobs.list]]
+        position = "Helpdesk/técnico de campo"
+        dates = "07/2005 – 07/2006"
+        company = "sFactory (DMR Consulting)"
+        details = "Helpdesk y técnico de campo en el Hospital de la Vall d’Hebron <br/>Cliente: Hospital Vall d'Hebron "
+
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Conocimientos"
+        
+        [[params.skills.list]] 
+				skill = "Docker"
+				level = "60%"
+				
+				[[params.skills.list]] 
+				skill = "Kubernetes"
+				level = "50%"
+        
+        [[params.skills.list]] 
+				skill = "ELK"
+				level = "50%"
+
+        [[params.skills.list]] 
+				skill = "Spring Boot 2"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Spring 5"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Spring MVC"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Spring Data JPA"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Spring Data Mongo"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Spring Security"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Reactive"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Web-flux"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Swagger"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Servicios Rest JSON"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Hibernate"
+				level = "60%"                                  				                                                                 
+				                        
+				[[params.skills.list]]  
+				skill = "Spring Boot 1"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Spring 4"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Servicios Soap"
+				level = "85%"           
+				                        
+				[[params.skills.list]]  
+				skill = "iText"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Axis2"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "OpenShift"
+				level = "85%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Tomcat"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Camunda BMP"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "BPMN 2"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "MySql"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "MyBatis"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "AWS"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "BonitaSoft BMP"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Javascript"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Groovy"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Angular"
+				level = "30%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Postgres"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "BD H2"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "html"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "jasperreports"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Weblogic"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Oracle"
+				level = "85%"           		                                  
+				                        
+				[[params.skills.list]]  
+				skill = "JAX-RC"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "EJB"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "PrimeFaces"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "jenkins"
+				level = "75%"           
+				                        
+				[[params.skills.list]]  
+				skill = "jsp"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "maven"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Talend"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Spring"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Oracle Service Bus (OSB)"
+				level = "85%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Apache"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "WS-Secrity"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Canigo"
+				level = "95%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Struts"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "ant"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "continuus"
+				level = "50%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Strus"
+				level = "90%"           
+				                        
+				[[params.skills.list]]  
+				skill = "jsf"
+				level = "80%"           
+        
+				                        
+				[[params.skills.list]]  
+				skill = "Webshpere"
+				level = "70%"           
+
+
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
