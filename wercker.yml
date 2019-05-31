@@ -4,8 +4,8 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.17"
-        theme: hugo-orbit-theme
-        flags: --buildDrafts=true
+#        theme: hugo-orbit-theme
+#        flags: --buildDrafts=true
 deploy:
   steps:
     - install-packages:
