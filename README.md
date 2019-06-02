@@ -1,1 +1,2 @@
-# cv
+# Init server
+hugo server -w
