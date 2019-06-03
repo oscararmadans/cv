@@ -515,4 +515,4 @@ disable404 = false
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = '<p><a href="cv.pdf" class="download"><b>Download this as a pdf</b> (generated using wkhtmltopdf)</a></p><p><a href="index.pdf" class="download"><b>Download this as a pdf</b> (generated using Chrome FireShot extension)</a></p>'
+        copyright = '<p><a href="https://oscararmadans.github.io/cv/cv.pdf" class="download"><b>Download this as a pdf</b> (generated using wkhtmltopdf)</a></p><p><a href="https://oscararmadans.github.io/cv/index.pdf" class="download"><b>Download this as a pdf</b> (generated using Chrome FireShot extension)</a></p>'
