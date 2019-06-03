@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://oscararmadans.github.io/cv/"
 languageCode = "es"
 title = "Òscar Armadans Martínez"
 theme = "hugo-orbit-theme"
