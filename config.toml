@@ -165,7 +165,7 @@ disable404 = false
         position = "Software engineer"
         dates = "04/2019 - "
         company = "Opentrends"
-        details = "Team leader equipo 2 personas. Responsable framework de la Generalitat de Catalunya<br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Spring Boot 2, Spring 5, Spring MVC, Spring Data JPA, Spring Data Mongo, Spring Security, Reactive, Web-flux, Swagger, Servicios Rest JSON, Hibernate, ELK, Docker, Kubernetes"
+        details = "Team leader equipo 1 persona. Responsable framework de la Generalitat de Catalunya<br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Spring Boot 2, Spring 5, Spring MVC, Spring Data JPA, Spring Data Mongo, Spring Security, Reactive, Web-flux, Swagger, Servicios Rest JSON, Hibernate, ELK, Docker, Kubernetes"
         
         [[params.jobs.list]]
         position = "Software engineer"
@@ -225,25 +225,25 @@ disable404 = false
         position = "Analista programador J2EE"
         dates = "10/2009 – 05/2010"
         company = "Atos Origin"
-        details = "Anàlisis y desarrollo proyecto SIRE (receta electrónica) del Departament de Salut (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle, EJB, Servicios Soap, Strus, Hibernate, jsp, jsf, html, javascript, jasperreports, maven, ant"
+        details = "Anàlisis y desarrollo proyecto SIRE (receta electrónica) del Departament de Salut (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle, EJB, Servicios Soap, Struts, Hibernate, jsp, jsf, html, javascript, jasperreports, maven, ant"
 
 				[[params.jobs.list]]
         position = "Analista programador J2EE"
         dates = "07/2008 – 10/2009"
         company = "Atos Origin"
-        details = "Soporte técnico a proyectos y responsable de nuevos proyectos del Departament de Justícia (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle Service Bus (OSB), Apache, EJB, Servicios Soap, WS-Secrity, Canigo, Strus, Hibernate, jsp, html, javascript, maven, ant, continuus, jenkins"
+        details = "Soporte técnico a proyectos y responsable de nuevos proyectos del Departament de Justícia (Generalitat de Catalunya) <br/>Cliente: Generalitat de Catalunya <br/>Tecnologías: Weblogic, Oracle Service Bus (OSB), Apache, EJB, Servicios Soap, WS-Secrity, Canigo, Struts, Hibernate, jsp, html, javascript, maven, ant, continuus, jenkins"
         
         [[params.jobs.list]]
         position = "Analista programador J2EE"
         dates = "07/2007 – 07/2008"
         company = "Capgemini"
-        details = "Anàlisis y desarrollo proyecto DRV (Derivados) para La Caixa <br/>Cliente: La Caixa <br/>Tecnologías: Webshpere, Oracle, Servicios Soap, Strus, Hibernate, jsp, html, javascript"
+        details = "Anàlisis y desarrollo proyecto DRV (Derivados) para La Caixa <br/>Cliente: La Caixa <br/>Tecnologías: Webshpere, Oracle, Servicios Soap, Struts, Hibernate, jsp, html, javascript"
         
         [[params.jobs.list]]
         position = "Programador J2EE"
         dates = "07/2006 – 07/2007"
         company = "Capgemini"
-        details = "Desarrollo proyecto DRV (Derivados) para La Caixa <br/>Cliente: La Caixa <br/>Tecnologías: Webshpere, Oracle, Servicios Soap, Strus, Hibernate, jsp, html, javascript"
+        details = "Desarrollo proyecto DRV (Derivados) para La Caixa <br/>Cliente: La Caixa <br/>Tecnologías: Webshpere, Oracle, Servicios Soap, Struts, Hibernate, jsp, html, javascript"
         
         [[params.jobs.list]]
         position = "Helpdesk/técnico de campo"
@@ -291,220 +291,216 @@ disable404 = false
         title = "Conocimientos"
         
         [[params.skills.list]] 
-				skill = "Docker"
+				skill = "Docker 60%"
 				level = "60%"
 				
 				[[params.skills.list]] 
-				skill = "Kubernetes"
+				skill = "Kubernetes 50%"
 				level = "50%"
         
         [[params.skills.list]] 
-				skill = "ELK"
+				skill = "ELK 50%"
 				level = "50%"
 
         [[params.skills.list]] 
-				skill = "Spring Boot 2"
+				skill = "Spring Boot 2 60%"
 				level = "60%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Spring 5"
+				skill = "Spring 5 60%"
 				level = "60%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Spring MVC"
+				skill = "Spring MVC 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Spring Data JPA"
+				skill = "Spring Data JPA 80%"
 				level = "80%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Spring Data Mongo"
+				skill = "Spring Data Mongo 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Spring Security"
+				skill = "Spring Security 80%"
 				level = "80%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Reactive"
+				skill = "Reactive 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Web-flux"
+				skill = "Web-flux 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Swagger"
+				skill = "Swagger 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Servicios Rest JSON"
+				skill = "Servicios Rest JSON 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Hibernate"
+				skill = "Hibernate 60%"
 				level = "60%"                                  				                                                                 
 				                        
 				[[params.skills.list]]  
-				skill = "Spring Boot 1"
+				skill = "Spring Boot 1 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Spring 4"
+				skill = "Spring 4 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Servicios Soap"
+				skill = "Servicios Soap 85%"
 				level = "85%"           
 				                        
 				[[params.skills.list]]  
-				skill = "iText"
+				skill = "iText 60%"
 				level = "60%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Axis2"
+				skill = "Axis2 60%"
 				level = "60%"           
 				                        
 				[[params.skills.list]]  
-				skill = "OpenShift"
+				skill = "OpenShift 85%"
 				level = "85%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Tomcat"
+				skill = "Tomcat 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Camunda BMP"
+				skill = "Camunda BMP 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "BPMN 2"
+				skill = "BPMN 2 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "MySql"
+				skill = "MySql 80%"
 				level = "80%"           
 				                        
 				[[params.skills.list]]  
-				skill = "MyBatis"
+				skill = "MyBatis 80%"
 				level = "80%"           
 				                        
 				[[params.skills.list]]  
-				skill = "AWS"
+				skill = "AWS 60%"
 				level = "60%"           
 				                        
 				[[params.skills.list]]  
-				skill = "BonitaSoft BMP"
+				skill = "BonitaSoft BMP 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Javascript"
+				skill = "Javascript 60%"
 				level = "60%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Groovy"
+				skill = "Groovy 80%"
 				level = "80%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Angular"
+				skill = "Angular 30%"
 				level = "30%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Postgres"
+				skill = "Postgres 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "BD H2"
+				skill = "BD H2 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "html"
+				skill = "html 60%"
 				level = "60%"           
 				                        
 				[[params.skills.list]]  
-				skill = "jasperreports"
+				skill = "jasperreports 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Weblogic"
+				skill = "Weblogic 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Oracle"
+				skill = "Oracle 85%"
 				level = "85%"           		                                  
 				                        
 				[[params.skills.list]]  
-				skill = "JAX-RC"
+				skill = "JAX-RC 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "EJB"
+				skill = "EJB 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "PrimeFaces"
+				skill = "PrimeFaces 70%"
 				level = "70%"           
 				                        
 				[[params.skills.list]]  
-				skill = "jenkins"
+				skill = "jenkins 75%"
 				level = "75%"           
 				                        
 				[[params.skills.list]]  
-				skill = "jsp"
+				skill = "jsp 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "maven"
-				level = "80%"           
-				                        
-				[[params.skills.list]]  
-				skill = "Talend"
-				level = "80%"           
-				                        
-				[[params.skills.list]]  
-				skill = "Spring"
-				level = "90%"           
-				                        
-				[[params.skills.list]]  
-				skill = "Oracle Service Bus (OSB)"
+				skill = "maven 85%"
 				level = "85%"           
 				                        
 				[[params.skills.list]]  
-				skill = "Apache"
-				level = "60%"           
-				                        
-				[[params.skills.list]]  
-				skill = "WS-Secrity"
-				level = "70%"           
-				                        
-				[[params.skills.list]]  
-				skill = "Canigo"
-				level = "95%"           
-				                        
-				[[params.skills.list]]  
-				skill = "Struts"
+				skill = "Talend 80%"
 				level = "80%"           
 				                        
 				[[params.skills.list]]  
-				skill = "ant"
-				level = "70%"           
-				                        
-				[[params.skills.list]]  
-				skill = "continuus"
-				level = "50%"           
-				                        
-				[[params.skills.list]]  
-				skill = "Strus"
+				skill = "Spring 90%"
 				level = "90%"           
 				                        
 				[[params.skills.list]]  
-				skill = "jsf"
+				skill = "Oracle Service Bus (OSB) 85%"
+				level = "85%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Apache 60%"
+				level = "60%"           
+				                        
+				[[params.skills.list]]  
+				skill = "WS-Secrity 70%"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Canigo 95%"
+				level = "95%"           
+				                        
+				[[params.skills.list]]  
+				skill = "Struts 80%"
+				level = "80%"           
+				                        
+				[[params.skills.list]]  
+				skill = "ant 70%"
+				level = "70%"           
+				                        
+				[[params.skills.list]]  
+				skill = "continuus 55%"
+				level = "50%"                     
+				                        
+				[[params.skills.list]]  
+				skill = "jsf 80%"
 				level = "80%"           
         
 				                        
 				[[params.skills.list]]  
-				skill = "Webshpere"
+				skill = "Webshpere 70%"
 				level = "70%"           
 
 
