@@ -32,7 +32,7 @@ disable404 = false
     [params.profile]
         name = "Òscar Armadans Martínez"
         tagline = "Software Engineer"
-#        avatar = "profile.png"
+        avatar = "profile.png"
 
     # Contact section
     [params.contact]
